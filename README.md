@@ -1,4 +1,4 @@
-# Tulsa-Health-Department-App
+# Tulsa Health Department App
 React Native app built at Code for Tulsa hackathon as proof of concept for digitizing Tulsa Health Department inspections workflow
 
 # Troubleshooting
