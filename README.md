@@ -3,11 +3,11 @@ React Native app built at Code for Tulsa hackathon as proof of concept for digit
 
 # Troubleshooting
 If running into trouble with react-native camera module: 
-Is build.gradle added to react-native-camera?
-Is AndroidManifest.xml under android/src/main?
+- Is build.gradle added to react-native-camera?
+- Is AndroidManifest.xml under android/src/main?
 
-Go to the github page for react-native-camera for specific instructions on install
+Go to the github page for react-native-camera for installation instruction:
 https://github.com/lwansbrough/react-native-camera
 
-Need to install this way: 
-npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save
+Need to do this: 
+- npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save
