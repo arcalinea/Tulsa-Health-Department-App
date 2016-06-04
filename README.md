@@ -6,8 +6,8 @@ If running into trouble with react-native camera module:
 - Is build.gradle added to react-native-camera?
 - Is AndroidManifest.xml under android/src/main?
 
+Install this way: 
+`npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save`
+
 Go to the github page for react-native-camera for installation instruction:
 https://github.com/lwansbrough/react-native-camera
-
-Need to do this: 
-- npm install react-native-camera@https://github.com/lwansbrough/react-native-camera.git --save
