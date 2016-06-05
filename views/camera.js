@@ -13,6 +13,9 @@
 // } = React;
 
 import React, { Component, } from 'react'; 
+import Camera from 'react-native-camera';
+import styles from '../styles/stylesheet';
+
 import { 
   AppRegistry, 
   Image, 
@@ -26,10 +29,16 @@ import {
 class Complaints extends Component {
     render() {
       return (
-        <View >
+        <View style={styles.cameraContainer}>
           <Text >
            This should be the camera page
           </Text>
+          <Camera
+            ref='cam'
+            style={[styles.container, styles.camera]}
+            type={Camera.constants.Type.back}
+          >
+          </Camera>
         </View>
       );
     }
